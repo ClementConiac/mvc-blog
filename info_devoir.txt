@@ -1,0 +1,24 @@
+comment (devoir) : 
+
+(bdd table):
+-id
+-user_id --> user
+-article_id --> article
+-content
+-is_approved
+-created_at
+
+sur la view article on liste tout les article is_approved = 1 (par un admin)
+
+dans le model des articles :
+getComments ($id) chercher toutes les infos sur le commentaire publié
+
+dans l'admin : 
+une partie pour la modération des articles (comme l'onglet avec les images)
+
+l'upload d'image (en une seul fonction) :
+uploadImage($linkTo/*a quoi c'est lié*/,$role/*image principale ou secondaire*/)
+
+
+
+FACTORISER !!
